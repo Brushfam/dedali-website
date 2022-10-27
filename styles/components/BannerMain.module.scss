@@ -1,0 +1,80 @@
+@import "styles/abstracts/variables";
+
+.banner {
+  width: 100%;
+  height: 860px;
+  //min-height: 1020px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+
+  .textContent {
+    display: flex;
+    justify-content: center;
+    column-gap: 170px;
+    max-width: 1052px;
+    z-index: 10;
+    width: 100%;
+    margin: 0 auto;
+
+    @include tablet-portrait-down {
+      max-width: 760px;
+      column-gap: 50px;
+      width: fit-content;
+    }
+    @include md-down {
+      flex-direction: column;
+    }
+    @include sm-down {
+      font-size: 13px;
+    }
+
+    h2 {
+      letter-spacing: 0.05em;
+    }
+
+    .rightside {
+      max-width: 560px;
+      @include tablet-portrait-down {
+        max-width: 369px;
+      }
+    }
+  }
+
+  .dedali {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 2%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 20%;
+      height: auto;
+      min-width: 200px;
+    }
+  }
+
+  .background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 2%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 120%;
+      height: 120%;
+      //opacity: 1;
+      //max-width: 1440px;
+    }
+  }
+}
