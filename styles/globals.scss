@@ -1,0 +1,34 @@
+@import "abstracts/variables";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: $primary-bg-color;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.basicWrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1090px;
+  //box-sizing: content-box;
+  padding: 0 15px;
+}
+
+.SWrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 824px;
+  padding: 0 15px;
+}

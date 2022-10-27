@@ -1,0 +1,86 @@
+@import '../abstracts/variables';
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: $primary-text-color;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'SpaceGrotesk', sans-serif;
+  letter-spacing: 0.05em;
+  margin: 0;
+  color: white;
+}
+
+h1, h2, h3 {
+  line-height: 140%;
+  font-weight: 700;
+}
+
+h1, .header1 {
+  font-family: 'NexaBold', sans-serif;
+  font-size: 45px;
+  line-height: 140%;
+  margin: 20px 0;
+  @include tablet-portrait-down {
+    font-size: 34px;
+  }
+  @include sm-down {
+    font-size: 23px;
+  }
+  @include sm-down {
+    font-size: 20px;
+  }
+}
+
+h2, .header2 {
+  font-family: 'SpaceGrotesk', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 140%;
+  @include tablet-portrait-down {
+    font-size: 23px;
+  }
+  @include md-down {
+    font-size: 20px;
+  }
+  @include sm-down {
+    font-size: 17px;
+  }
+}
+
+h4, h5, h6 {
+  font-size: 28px;
+  line-height: 140%;
+  font-weight: 500;
+  @include tablet-portrait-down {
+    font-size: 23px;
+  }
+  @include md-down {
+    font-size: 20px;
+  }
+  @include sm-down {
+    font-size: 17px;
+  }
+}
+
+.main {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+  line-height: 16px;
+  font-weight: normal;
+  @include tablet-landscape-down {
+    font-size: 16px;
+  }
+  @include tablet-portrait-down {
+    font-size: 16px;
+  }
+  @include md-down {
+    font-size: 14px;
+  }
+  @include sm-down {
+    font-size: 13px;
+  }
+}
