@@ -1,0 +1,91 @@
+/* SpaceGrotesk */
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url("SpaceGrotesk/SpaceGrotesk-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url("SpaceGrotesk/SpaceGrotesk-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url("SpaceGrotesk/SpaceGrotesk-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url("SpaceGrotesk/SpaceGrotesk-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url("SpaceGrotesk/SpaceGrotesk-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+/* Ubuntu */
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("Ubuntu/Ubuntu-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("Ubuntu/Ubuntu-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("Ubuntu/Ubuntu-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("Ubuntu/Ubuntu-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("Ubuntu/Ubuntu-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("Ubuntu/Ubuntu-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src: url("NexaBold/NexaBold.ttf") format("truetype");
+    font-weight: 300;
+}
